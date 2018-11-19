@@ -1,0 +1,384 @@
+@media screen and (min-width: 1000px) {
+    body {
+        background-image: url("../images/index_background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main_navbar {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2.5em;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+        background-color: DimGray;
+        position: fixed;
+        z-index: 3;
+    }
+    
+    .main_navbar_title {
+        float: left;
+        display: block;
+        color: yellow;
+        text-align: left;
+        font-size: 1em;
+        padding: 0.75em 1em;
+        text-decoration: none;
+    }
+    
+    .main_navbar_title:hover {
+        background-color: CornflowerBlue;
+        height: 1em;
+    }
+    
+    .main_navbar_title_active {
+        float: left;
+        display: block;
+        color: DarkOrange;
+        text-align: left;
+        font-size: 1em;
+        padding: 0.75em 1em;
+        text-decoration: none;
+    }
+    
+    .logo {
+        border: 0.125em solid lime;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4em;
+        margin-bottom: 0em;
+        text-align: center;
+        width: 5em;
+    }
+    
+    .main_header {
+        color: DodgerBlue;
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Shadows Into Light', cursive;
+        margin-top: 0.1em;
+        margin-bottom: 0em;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    
+    .basic_description {
+        color: lime;
+        font-family: 'Lobster', cursive;
+        font-weight: lighter;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 0em;
+        line-height: 0.5em;
+    }
+    
+    .list_projects {
+        color: yellow;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        
+        width: 100%;
+        margin: 2em 0 0 0;
+        padding: 0.1em 0 0.1em 0;
+        background-color: LightSlateGray;
+    }
+    
+    .showcase {
+        width: 100%;
+        margin: 2em 0 2em 0;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .showcase_elements_img {
+        width: 66.6666667%;
+        margin: 0 0 2em 0;
+        border: 0.25em solid Black;
+    }
+    
+    .showcase_elements_img:hover {
+        border: 0.25em solid RoyalBlue;
+    }
+    
+    .showcase_elements_p {
+        text-align: center;
+        font-size: 2em;
+        color: white;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        line-height: 2em;
+    }
+    
+    .showcase1 { display: none; }
+    .showcase2 { display: none; }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    body {
+        background-image: url("../images/index_background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main_navbar {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1.5em;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+        background-color: DimGray;
+        position: fixed;
+        z-index: 3;
+    }
+    
+    .main_navbar_title {
+        float: left;
+        display: block;
+        color: yellow;
+        text-align: left;
+        font-size: 1em;
+        padding: 0.25em 0.75em;
+        text-decoration: none;
+    }
+    
+    .main_navbar_title:hover {
+        background-color: CornflowerBlue;
+        height: 1em;
+    }
+    
+    .main_navbar_title_active {
+        float: left;
+        display: block;
+        color: DarkOrange;
+        text-align: left;
+        font-size: 1em;
+        padding: 0.25em 0.75em;
+        text-decoration: none;
+    }
+    
+    .logo {
+        border: 0.125em solid lime;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        margin-bottom: 0em;
+        text-align: center;
+        width: 4em;
+    }
+    
+    .main_header {
+        color: DodgerBlue;
+        font-size: 2.75em;
+        font-weight: 700;
+        font-family: 'Shadows Into Light', cursive;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        text-align: center;
+        line-height: 1em;
+    }
+    
+    .basic_description {
+        color: lime;
+        font-family: 'Lobster', cursive;
+        font-weight: lighter;
+        font-size: 1.25em;
+        text-align: center;
+        margin-top: 0em;
+        line-height: 0.5em;
+    }
+    
+    .list_projects {
+        color: yellow;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        font-size: 1.25em;
+        text-align: center;
+        
+        width: 100%;
+        margin-top: 1.5em;
+        padding: 0em;
+        background-color: LightSlateGray;
+    }
+    
+    .showcase1 {
+        width: 100%;
+        margin: 0em 0 1em 0;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .showcase_elements_img1 {
+        width: 66.6666667%;
+        margin: 0 0 1em 0;
+        border: 0.25em solid Black;
+    }
+    
+    .showcase_elements_img1:hover {
+        border: 0.25em solid RoyalBlue;
+    }
+    
+    .showcase_elements_p1 {
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        line-height: 2em;
+    }
+    
+    .showcase  { display: none; }
+    .showcase2 { display: none; }
+}
+
+@media screen and (max-width: 699px) {
+    body {
+        background-image: url("../images/index_background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main_navbar {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1.5em;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+        background-color: DimGray;
+        position: fixed;
+        z-index: 3;
+    }
+    
+    .main_navbar_title {
+        float: left;
+        display: block;
+        color: yellow;
+        text-align: left;
+        font-size: 0.8em;
+        padding: 0.4em 0.75em;
+        text-decoration: none;
+    }
+    
+    .main_navbar_title:hover {
+        background-color: CornflowerBlue;
+        height: 1.1em;
+    }
+    
+    .main_navbar_title_active {
+        float: left;
+        display: block;
+        color: DarkOrange;
+        text-align: left;
+        font-size: 0.8em;
+        padding: 0.4em 0.75em;
+        text-decoration: none;
+    }
+    
+    .logo {
+        border: 0.125em solid lime;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5em;
+        margin-bottom: 0em;
+        text-align: center;
+        width: 3.5em;
+    }
+    
+    .main_header {
+        color: DodgerBlue;
+        font-size: 2em;
+        font-weight: 700;
+        font-family: 'Shadows Into Light', cursive;
+        margin-top: 0.5em;
+        margin-bottom: 0.2em;
+        text-align: center;
+        line-height: 1em;
+    }
+    
+    .basic_description {
+        color: lime;
+        font-family: 'Lobster', cursive;
+        font-weight: lighter;
+        font-size: 1.25em;
+        text-align: center;
+        margin-top: 0em;
+        line-height: 1em;
+    }
+    
+    .list_projects {
+        color: yellow;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        font-size: 0.8em;
+        text-align: center;
+        
+        width: 100%;
+        margin-top: 1.25em;
+        line-height: 1.1em;
+        padding: 0em;
+        background-color: LightSlateGray;
+    }
+    
+    .showcase2 {
+        width: 100%;
+        margin: 0em 0 0em 0;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .showcase_elements_img2 {
+        width: 60%;
+        height: auto;
+        margin: 0 0 0em 0;
+        border: 0.25em solid Black;
+    }
+    
+    .showcase_elements_img2:hover {
+        border: 0.25em solid RoyalBlue;
+    }
+    
+    .showcase_elements_p2 {
+        text-align: center;
+        font-size: 1em;
+        padding: 0;
+        border: 0;
+        margin: 0;
+        line-height: 2em;
+    }
+    
+    .showcase  { display: none; }
+    .showcase1 { display: none; }
+}
